@@ -8,6 +8,7 @@ import StylingRNC from './src/components/belajar/SampleStyle'
 import FlexBox from './src/components/belajar/FlexBox'
 import Position from './src/components/belajar/Position'
 import PropsDinamis from './src/components/belajar/PropsDinamis'
+import StateDinamis from './src/components/belajar/StateDinamis'
 
 //Arrow Function
 const App = () => {
@@ -18,7 +19,8 @@ const App = () => {
         {/* <StylingRNC/> */}
         {/* <FlexBox/> */}
         {/* <Position/> */}
-        <PropsDinamis/>
+        {/* <PropsDinamis/> */}
+        <StateDinamis/>
       </ScrollView>
     </View>
   )
