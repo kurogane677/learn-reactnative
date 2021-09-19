@@ -7,16 +7,18 @@ import KomponenDasar from './src/components/belajar/SampleComponent'
 import StylingRNC from './src/components/belajar/SampleStyle'
 import FlexBox from './src/components/belajar/FlexBox'
 import Position from './src/components/belajar/Position'
+import PropsDinamis from './src/components/belajar/PropsDinamis'
 
 //Arrow Function
 const App = () => {
   return (
     <View>
       <ScrollView>
-        <KomponenDasar/>
-        <StylingRNC/>
-        <FlexBox/>
-        <Position/>
+        {/* <KomponenDasar/> */}
+        {/* <StylingRNC/> */}
+        {/* <FlexBox/> */}
+        {/* <Position/> */}
+        <PropsDinamis/>
       </ScrollView>
     </View>
   )
