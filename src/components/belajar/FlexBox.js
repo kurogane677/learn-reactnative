@@ -6,11 +6,11 @@ class FlexBox extends Component {
         return (
             <View>
                 <Text style={{color:'#0F0F0F',fontWeight:'bold', fontSize:24}}>Materi Flex Box</Text>
-                <View style={{flexDirection:'row', backgroundColor:'grey'}}>
-                    <View style={{backgroundColor:'#F01752',width:50,height:50}}></View>
-                    <View style={{backgroundColor:'#0F0174',flex:1,height:60}}></View>
-                    <View style={{backgroundColor:'#A51022',flex:1,height:70}}></View>
-                    <View style={{backgroundColor:'#1A1022',flex:1,height:100}}></View>
+                <View style={{flexDirection:'row', backgroundColor:'grey', justifyContent:'space-between'}}>
+                    <View style={{backgroundColor:'#F01752',width:50,height:150}}></View>
+                    <View style={{backgroundColor:'#0F0174',flex:1,height:80}}></View>
+                    <View style={{backgroundColor:'#A51022',flex:1,height:100}}></View>
+                    <View style={{backgroundColor:'#1A1022',flex:1,height:200}}></View>
                 </View>
                 <View style={{flexDirection:'row',justifyContent:'space-around'}}>
                     <Text>Beranda</Text>

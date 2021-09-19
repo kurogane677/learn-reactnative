@@ -6,14 +6,18 @@ import { Image, ScrollView, StyleSheet, Text, TextInput, View } from 'react-nati
 import KomponenDasar from './src/components/belajar/SampleComponent'
 import StylingRNC from './src/components/belajar/SampleStyle'
 import FlexBox from './src/components/belajar/FlexBox'
+import Position from './src/components/belajar/Position'
 
 //Arrow Function
 const App = () => {
   return (
     <View>
-        {/* <KomponenDasar/>
-        <StylingRNC/> */}
+      <ScrollView>
+        <KomponenDasar/>
+        <StylingRNC/>
         <FlexBox/>
+        <Position/>
+      </ScrollView>
     </View>
   )
 }
