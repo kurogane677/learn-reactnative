@@ -9,6 +9,7 @@ import FlexBox from './src/components/belajar/FlexBox'
 import Position from './src/components/belajar/Position'
 import PropsDinamis from './src/components/belajar/PropsDinamis'
 import StateDinamis from './src/components/belajar/StateDinamis'
+import Communication from './src/components/belajar/Communication'
 
 //Arrow Function
 const App = () => {
@@ -20,7 +21,8 @@ const App = () => {
         {/* <FlexBox/> */}
         {/* <Position/> */}
         {/* <PropsDinamis/> */}
-        <StateDinamis/>
+        {/* <StateDinamis/> */}
+        <Communication />
       </ScrollView>
     </View>
   )

@@ -1,6 +1,8 @@
 import React, { Component, useEffect, useState } from 'react'
 import { Button, StyleSheet, Text, View } from 'react-native'
 
+
+//Hooks state
 const Counter = () =>   {
     const [count, setCount] = useState(0);
     return(
@@ -28,6 +30,7 @@ const StateDinamis = () => {
     )
 }
 
+//Class state
 class CounterClass extends Component{
 
     state ={
