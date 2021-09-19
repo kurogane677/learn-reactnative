@@ -1,9 +1,6 @@
 import React from "react";
 import { Image, StyleSheet, Text, View } from "react-native";
-import gambar from './assets.images.sus.jpg'
-
-//bisa juga
-// import gambar from './assets/images/sus.jpg'
+import gambar from '../assets/images/sus.jpg'
 
 //Basic Styling
 const StylingRNC = () => {
