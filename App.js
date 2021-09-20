@@ -12,6 +12,7 @@ import StateDinamis from './src/components/belajar/StateDinamis'
 import Communication from './src/components/belajar/Communication'
 import BasicJavascripts from './src/components/belajar/BasicJavascripts'
 import Callapi from './src/components/belajar/Callapi'
+import CallAxios from './src/components/belajar/CallAxios'
 
 //Arrow Function
 const App = () => {
@@ -26,7 +27,9 @@ const App = () => {
         {/* <StateDinamis/> */}
         {/* <Communication /> */}
         {/* <BasicJavascripts/> */}
-        <Callapi/>
+        {/* <Callapi/> */}
+        <CallAxios/>
+        {/* <Text>Hello</Text> */}
       </ScrollView>
     </View>
   )
