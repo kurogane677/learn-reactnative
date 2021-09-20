@@ -11,6 +11,7 @@ import PropsDinamis from './src/components/belajar/PropsDinamis'
 import StateDinamis from './src/components/belajar/StateDinamis'
 import Communication from './src/components/belajar/Communication'
 import BasicJavascripts from './src/components/belajar/BasicJavascripts'
+import Callapi from './src/components/belajar/Callapi'
 
 //Arrow Function
 const App = () => {
@@ -24,7 +25,8 @@ const App = () => {
         {/* <PropsDinamis/> */}
         {/* <StateDinamis/> */}
         {/* <Communication /> */}
-        <BasicJavascripts/>
+        {/* <BasicJavascripts/> */}
+        <Callapi/>
       </ScrollView>
     </View>
   )
