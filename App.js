@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { Image, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native'
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 //Mengambil data dari file lain
 // import nama_var from './letak_files'
@@ -13,6 +15,18 @@ import Communication from './src/components/belajar/Communication'
 import BasicJavascripts from './src/components/belajar/BasicJavascripts'
 import Callapi from './src/components/belajar/Callapi'
 import CallAxios from './src/components/belajar/CallAxios'
+import Crud from './src/components/Crud'
+
+function HomeScreen() {
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Text>Home Screen</Text>
+    </View>
+  );
+}
+
+
+const Stack = createNativeStackNavigator();
 
 //Arrow Function
 const App = () => {
@@ -28,8 +42,14 @@ const App = () => {
         {/* <Communication /> */}
         {/* <BasicJavascripts/> */}
         {/* <Callapi/> */}
-        <CallAxios/>
+        {/* <CallAxios/> */}
+        {/* <Crud /> */}
         {/* <Text>Hello</Text> */}
+        <NavigationContainer>
+          <Stack.Navigator>
+            <Stack.Screen name="Home" component={HomeScreen} />
+          </Stack.Navigator>
+        </NavigationContainer>
       </ScrollView>
     </View>
   )
